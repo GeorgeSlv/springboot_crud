@@ -1,0 +1,7 @@
+CREATE TABLE veiculos (
+    id SERIAL PRIMARY KEY,
+    modelo VARCHAR(100) NOT NULL,
+    placa VARCHAR(7) NOT NULL UNIQUE,
+    renavam VARCHAR(9) NOT NULL,
+    id_prop VARCHAR(100) NOT NULL
+);
